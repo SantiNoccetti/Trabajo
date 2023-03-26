@@ -1,11 +1,21 @@
-html{
-    padding: 0px;
-    margin: 0px;
+ *{
+    padding: 0;
+    margin: 0;
 }
-
+p{
+    font-family:'Poppins', sans-serif;;
+}
 .Login{
     background-color: blue;
-
+    width: 50%;
+    height: 100vh;
 }
-
-.
+.hero{
+    display: flex;
+}
+.foto{
+    width: 50vh;
+}
+.imagen{
+    width: 50%;
+}
