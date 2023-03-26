@@ -39,3 +39,10 @@ a{
     font-size: 30px;
     color: black;
 }
+
+.email{
+    width: 100%;
+}
+.Mail{
+    padding-top: 10px;
+}
