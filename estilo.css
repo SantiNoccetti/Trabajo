@@ -5,9 +5,16 @@
 p{
     font-family:'Poppins', sans-serif;
     font-size: 15px;
+    color: grey;
+}
+a{
+    font-family:'Poppins', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
 }
 .Login{
-    background-color: blue;
+    background-color: white;
     width: 50%;
     height: 100vh;
     display: flex;
@@ -20,14 +27,15 @@ p{
     justify-content: center;
     align-items: center;
 }
-.foto{
-    width: 50%;
+.foto{  
+    width: 60%;
     height: 100vh;
     background-image: url(imagen.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.imagen{
-    background-size:auto;
+.welcome{
+    font-size: 30px;
+    color: black;
 }
