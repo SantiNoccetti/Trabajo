@@ -12,10 +12,17 @@ p{
 }
 .hero{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .foto{
-    width: 50vh;
+    width: 50%;
+    height: 100vh;
+    background-image: url(imagen.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .imagen{
-    width: 50%;
+    background-size:auto;
 }
