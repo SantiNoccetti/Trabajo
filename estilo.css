@@ -42,15 +42,17 @@ a{
     color: black;
 }
 .lore{
-    font-weight: 300;
+    margin-bottom: 20px;
+    font-weight: 300g;
     color: rgb(173, 169, 169);
+    
 }
 .Mail label{
     color: rgb(100, 99, 99);
-    font: 100;
+    font-size: 14px;
 }
 .Mail input{
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     padding: 0;
     width: 310px;
     height: 37px;
@@ -63,6 +65,7 @@ a{
 
     
 }
+
 
 ::placeholder{
     
