@@ -28,6 +28,7 @@ a{
     justify-content: center;
     align-items: center;
 }
+
 .foto{  
     width: 60%;
     height: 100vh;
@@ -36,11 +37,13 @@ a{
     background-position: center;
     background-size: cover;
 }
+
 .welcome{
     padding-bottom: 5px;
     font-size: 30px;
     color: black;
 }
+
 .lore{
     margin-bottom: 20px;
     font-weight: 300g;
@@ -56,6 +59,7 @@ a{
     color: rgb(100, 99, 99);
     font-size: 14px;
 }
+
 .Mail input{
     margin-bottom: 30px;
     padding: 0;
@@ -78,6 +82,7 @@ a{
     margin-left: 20px;
     color: rgb(104, 104, 104);
 }
+
 .temaContraseña{
     margin-bottom: 20px;
     display: flex;
@@ -85,17 +90,20 @@ a{
     align-items: center;
     
 }
+
 .temaContraseña label{
     color: rgb(100, 99, 99);
     font-size: 12px;
     margin-left: 5px;
     
 }
+
 .temaContraseña a{
     color: black;
     font-size: 12px;
 
 }
+
 .temaContraseña input{
     appearance: none;
     cursor: pointer;
@@ -107,9 +115,11 @@ a{
     border: 1px solid rgb(207, 203, 203);
 
 }
+
 .temaContraseña input:checked{
     background-color: rgb(0, 0, 0);
 }
+
 .Recordar{
     display: flex;
     justify-content: start;
@@ -122,9 +132,11 @@ a{
     align-items: center;
     flex-direction: column;
 }
+
 .botones a{
     margin-bottom: 15px;
 }
+
 .botones button{
     
     cursor: pointer;
@@ -139,12 +151,14 @@ a{
     font-weight: 500;
     
 }
+
 .registrarse{
     background-color: rgb(17,23,37);
     color: rgb(246,251,255);
     border-color: rgb(246,251,255);
     border-style: solid;
 }
+
 .google{
     position: relative;
     z-index: 3;
@@ -155,30 +169,108 @@ a{
     justify-content: center;
     align-items: center;
 }
+
 .fotoGoogle{
     width: 25px;
     margin-right: 10px;
 }
+
 .sinCuenta{
-    position: absolute;
+    position: relative;
     z-index: 2;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .sinCuenta label, a{
     font-size: 12px;
     padding-right: 5px;
     
 }
+
 .subrayo{
     position: relative;
     z-index: 1;
-    bottom: 18px;
-    right: 65px;
+    bottom: 35px;
+    right: 32px;
     display: flex;
     justify-content: end;
 }
+
 .subrayo img{
     width: 110px;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+.Cuadro{
+    background:rgba(0, 0, 0, 0);
+    backdrop-filter: blur(10px); 
+    margin: 50px;
+    padding: 20px;
+    height: 260px;
+    border-color: #ffffff56;
+    border-width: 1px;
+    border-style: solid;
+}
+.Cuadro h1,h3{
+    color: #fff;
+}
+
+.Cuadro h1{
+    font-size: 23px;
+    margin-right: 60px;
+}
+
+.descripcion{
+    display: flex;
+    justify-content: baseline;
+    margin-bottom: 20px;
+}
+
+.puntuacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.estrellas{
+    position: relative;
+    bottom: 10px;
+}
+
+.estrellas img{
+    width: 25px;   
+}
+
+.web{
+    font-weight: 200;
+}
+
+.catalogo{
+    font-weight: 500; 
+    margin-bottom: 5px;
+}
+
+.pie{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flechas img{
+    width: 50px;
+    font-weight: 200;
+    margin-left: 20px;
+    padding: 10px;
+     cursor: pointer;
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 1px;
 }
